@@ -1,0 +1,43 @@
+Name: trax
+Version: 1.3.1
+Summary: Trax
+Home-page: http://github.com/google/trax
+Author: Google Inc.
+Author-email: no-reply@google.com
+License: Apache 2.0
+Location: /opt/conda/lib/python3.7/site-packages
+Requires: jaxlib, absl-py, funcsigs, six, t5, tensorflow-text, scipy, numpy, tensorflow-datasets, gym, jax, tensor2tensor, gin-config
+Required-by: 
+
+Name: jax
+Version: 0.1.72
+Summary: Differentiate, compile, and transform Numpy code.
+Home-page: https://github.com/google/jax
+Author: JAX team
+Author-email: jax-dev@google.com
+License: Apache-2.0
+Location: /opt/conda/lib/python3.7/site-packages
+Requires: numpy, absl-py, opt-einsum
+Required-by: trax
+
+Name: jaxlib
+Version: 0.1.51
+Summary: XLA library for JAX
+Home-page: https://github.com/google/jax
+Author: JAX team
+Author-email: jax-dev@google.com
+License: Apache-2.0
+Location: /opt/conda/lib/python3.7/site-packages
+Requires: numpy, scipy, absl-py
+Required-by: trax
+
+Name: t5
+Version: 0.6.1
+Summary: Text-to-text transfer transformer
+Home-page: http://github.com/google-research/text-to-text-transfer-transformer
+Author: Google Inc.
+Author-email: no-reply@google.com
+License: Apache 2.0
+Location: /opt/conda/lib/python3.7/site-packages
+Requires: six, rouge-score, scikit-learn, babel, sentencepiece, tfds-nightly, pandas, scipy, absl-py, torch, transformers, numpy, sacrebleu, nltk, tensorflow-text, gin-config, mesh-tensorflow
+Required-by: trax
