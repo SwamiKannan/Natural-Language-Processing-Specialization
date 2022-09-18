@@ -4,7 +4,11 @@
 </p>
 
 # [Natural Language Processing Specialization](https://www.coursera.org/specializations/natural-language-processing)
+## Programming Assignments
+<b><i>Disclaimer</b></i><br>
+<i>You should only use the programming assignments placed in this repository as a resource and to get you out of a jam. Do not simply copy and paste the code if you are a participant in this course; doing so will not help you. Please watch every lecture video, finish the quizzes and code assignments yourself as it is comparatively simple to understand.</i><br><br>
 
+## About the Course
 Natural Language Processing (NLP) uses algorithms to understand and manipulate human language. This technology is one of the most broadly applied areas of machine learning. As AI continues to expand, so will the demand for professionals skilled at building models that analyze speech and language, uncover contextual patterns, and produce insights from text and audio.
 This Specialization will equip you with the state-of-the-art deep learning techniques needed to build cutting-edge NLP systems. By the end of this Specialization, you will be ready to design NLP applications that perform question-answering and sentiment analysis, create tools to translate languages and summarize text, and even build chatbots.
 
